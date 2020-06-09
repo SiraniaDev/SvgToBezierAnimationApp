@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24860FCF248E367800A2F826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24860FCE248E367800A2F826 /* AppDelegate.swift */; };
+		24860FD1248E367800A2F826 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24860FD0248E367800A2F826 /* SceneDelegate.swift */; };
+		24860FD3248E367800A2F826 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24860FD2248E367800A2F826 /* ContentView.swift */; };
+		24860FD5248E367C00A2F826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24860FD4248E367C00A2F826 /* Assets.xcassets */; };
+		24860FD8248E367C00A2F826 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24860FD7248E367C00A2F826 /* Preview Assets.xcassets */; };
+		24860FDB248E367C00A2F826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24860FD9248E367C00A2F826 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24860FCB248E367800A2F826 /* SvgToBezierAnimationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SvgToBezierAnimationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24860FCE248E367800A2F826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24860FD0248E367800A2F826 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		24860FD2248E367800A2F826 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		24860FD4248E367C00A2F826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24860FD7248E367C00A2F826 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		24860FDA248E367C00A2F826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24860FDC248E367D00A2F826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24860FC8248E367800A2F826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24860FC2248E367800A2F826 = {
+			isa = PBXGroup;
+			children = (
+				24860FCD248E367800A2F826 /* SvgToBezierAnimationApp */,
+				24860FCC248E367800A2F826 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24860FCC248E367800A2F826 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24860FCB248E367800A2F826 /* SvgToBezierAnimationApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24860FCD248E367800A2F826 /* SvgToBezierAnimationApp */ = {
+			isa = PBXGroup;
+			children = (
+				24860FCE248E367800A2F826 /* AppDelegate.swift */,
+				24860FD0248E367800A2F826 /* SceneDelegate.swift */,
+				24860FD2248E367800A2F826 /* ContentView.swift */,
+				24860FD4248E367C00A2F826 /* Assets.xcassets */,
+				24860FD9248E367C00A2F826 /* LaunchScreen.storyboard */,
+				24860FDC248E367D00A2F826 /* Info.plist */,
+				24860FD6248E367C00A2F826 /* Preview Content */,
+			);
+			path = SvgToBezierAnimationApp;
+			sourceTree = "<group>";
+		};
+		24860FD6248E367C00A2F826 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				24860FD7248E367C00A2F826 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24860FCA248E367800A2F826 /* SvgToBezierAnimationApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24860FDF248E367D00A2F826 /* Build configuration list for PBXNativeTarget "SvgToBezierAnimationApp" */;
+			buildPhases = (
+				24860FC7248E367800A2F826 /* Sources */,
+				24860FC8248E367800A2F826 /* Frameworks */,
+				24860FC9248E367800A2F826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SvgToBezierAnimationApp;
+			productName = SvgToBezierAnimationApp;
+			productReference = 24860FCB248E367800A2F826 /* SvgToBezierAnimationApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24860FC3248E367800A2F826 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Nadia Mettioui";
+				TargetAttributes = {
+					24860FCA248E367800A2F826 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 24860FC6248E367800A2F826 /* Build configuration list for PBXProject "SvgToBezierAnimationApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24860FC2248E367800A2F826;
+			productRefGroup = 24860FCC248E367800A2F826 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24860FCA248E367800A2F826 /* SvgToBezierAnimationApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24860FC9248E367800A2F826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24860FDB248E367C00A2F826 /* LaunchScreen.storyboard in Resources */,
+				24860FD8248E367C00A2F826 /* Preview Assets.xcassets in Resources */,
+				24860FD5248E367C00A2F826 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24860FC7248E367800A2F826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24860FCF248E367800A2F826 /* AppDelegate.swift in Sources */,
+				24860FD1248E367800A2F826 /* SceneDelegate.swift in Sources */,
+				24860FD3248E367800A2F826 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24860FD9248E367C00A2F826 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24860FDA248E367C00A2F826 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24860FDD248E367D00A2F826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24860FDE248E367D00A2F826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24860FE0248E367D00A2F826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SvgToBezierAnimationApp/Preview Content\"";
+				DEVELOPMENT_TEAM = GVV2Q84CVQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SvgToBezierAnimationApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siraniadam.com.SvgToBezierAnimationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24860FE1248E367D00A2F826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SvgToBezierAnimationApp/Preview Content\"";
+				DEVELOPMENT_TEAM = GVV2Q84CVQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SvgToBezierAnimationApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siraniadam.com.SvgToBezierAnimationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24860FC6248E367800A2F826 /* Build configuration list for PBXProject "SvgToBezierAnimationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24860FDD248E367D00A2F826 /* Debug */,
+				24860FDE248E367D00A2F826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24860FDF248E367D00A2F826 /* Build configuration list for PBXNativeTarget "SvgToBezierAnimationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24860FE0248E367D00A2F826 /* Debug */,
+				24860FE1248E367D00A2F826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24860FC3248E367800A2F826 /* Project object */;
+}
